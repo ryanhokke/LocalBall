@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E059A311ED292AA0097B9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E059A301ED292AA0097B9DE /* AppDelegate.swift */; };
+		2E059A331ED292AA0097B9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E059A321ED292AA0097B9DE /* ViewController.swift */; };
+		2E059A361ED292AA0097B9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E059A341ED292AA0097B9DE /* Main.storyboard */; };
+		2E059A381ED292AA0097B9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E059A371ED292AA0097B9DE /* Assets.xcassets */; };
+		2E059A3B1ED292AA0097B9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E059A391ED292AA0097B9DE /* LaunchScreen.storyboard */; };
+		2E059A431ED292DD0097B9DE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E059A421ED292DD0097B9DE /* MapViewController.swift */; };
+		2E059A511ED3BBEF0097B9DE /* backgroundwithlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E059A501ED3BBEF0097B9DE /* backgroundwithlogo.png */; };
+		2E059A551ED3BF400097B9DE /* whiteboarder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E059A541ED3BF400097B9DE /* whiteboarder.png */; };
+		2E059A581ED3DDBB0097B9DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E059A571ED3DDBB0097B9DE /* CoreLocation.framework */; };
+		2EB2B9FA1ED3F2BB009EDEDE /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2B9F91ED3F2BB009EDEDE /* ScoreViewController.swift */; };
+		2EB2B9FC1ED3F944009EDEDE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2B9FB1ED3F944009EDEDE /* background.png */; };
+		2EB2B9FE1ED3FDEB009EDEDE /* Airhorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2B9FD1ED3FDEB009EDEDE /* Airhorn.mp3 */; };
+		2EB2BA061ED42B11009EDEDE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2BA051ED42B11009EDEDE /* TableViewController.swift */; };
+		2EB2BA081ED42F62009EDEDE /* CourtDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2BA071ED42F62009EDEDE /* CourtDetailViewController.swift */; };
+		2EB2BA0A1ED434F5009EDEDE /* Deakin University Burwood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA091ED434F5009EDEDE /* Deakin University Burwood.jpg */; };
+		2EB2BA141ED570E3009EDEDE /* Tally Ho Reserve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA0B1ED570E3009EDEDE /* Tally Ho Reserve.jpg */; };
+		2EB2BA151ED570E3009EDEDE /* Kaland Hard Court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA0C1ED570E3009EDEDE /* Kaland Hard Court.jpg */; };
+		2EB2BA161ED570E3009EDEDE /* Mirrabooka Hard Court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA0D1ED570E3009EDEDE /* Mirrabooka Hard Court.jpg */; };
+		2EB2BA171ED570E3009EDEDE /* Worrall St Hard Court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA0E1ED570E3009EDEDE /* Worrall St Hard Court.jpg */; };
+		2EB2BA181ED570E3009EDEDE /* Eley Rd Hard Court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA0F1ED570E3009EDEDE /* Eley Rd Hard Court.jpg */; };
+		2EB2BA191ED570E3009EDEDE /* Wattle Park Hard Court.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA101ED570E3009EDEDE /* Wattle Park Hard Court.jpg */; };
+		2EB2BA1A1ED570E3009EDEDE /* Ashburton Pool & Rec Center.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA111ED570E3009EDEDE /* Ashburton Pool & Rec Center.jpg */; };
+		2EB2BA1B1ED570E3009EDEDE /* Aqua Link Boxhill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA121ED570E3009EDEDE /* Aqua Link Boxhill.jpg */; };
+		2EB2BA1C1ED570E3009EDEDE /* Nunawading Basketball Centre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2BA131ED570E3009EDEDE /* Nunawading Basketball Centre.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E059A2D1ED292AA0097B9DE /* assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E059A301ED292AA0097B9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E059A321ED292AA0097B9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E059A351ED292AA0097B9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E059A371ED292AA0097B9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E059A3A1ED292AA0097B9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E059A3C1ED292AA0097B9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E059A421ED292DD0097B9DE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2E059A501ED3BBEF0097B9DE /* backgroundwithlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundwithlogo.png; sourceTree = "<group>"; };
+		2E059A541ED3BF400097B9DE /* whiteboarder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteboarder.png; sourceTree = "<group>"; };
+		2E059A571ED3DDBB0097B9DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2EB2B9F91ED3F2BB009EDEDE /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		2EB2B9FB1ED3F944009EDEDE /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2EB2B9FD1ED3FDEB009EDEDE /* Airhorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Airhorn.mp3; sourceTree = "<group>"; };
+		2EB2BA051ED42B11009EDEDE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2EB2BA071ED42F62009EDEDE /* CourtDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourtDetailViewController.swift; sourceTree = "<group>"; };
+		2EB2BA091ED434F5009EDEDE /* Deakin University Burwood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deakin University Burwood.jpg"; sourceTree = "<group>"; };
+		2EB2BA0B1ED570E3009EDEDE /* Tally Ho Reserve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tally Ho Reserve.jpg"; sourceTree = "<group>"; };
+		2EB2BA0C1ED570E3009EDEDE /* Kaland Hard Court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kaland Hard Court.jpg"; sourceTree = "<group>"; };
+		2EB2BA0D1ED570E3009EDEDE /* Mirrabooka Hard Court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mirrabooka Hard Court.jpg"; sourceTree = "<group>"; };
+		2EB2BA0E1ED570E3009EDEDE /* Worrall St Hard Court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Worrall St Hard Court.jpg"; sourceTree = "<group>"; };
+		2EB2BA0F1ED570E3009EDEDE /* Eley Rd Hard Court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eley Rd Hard Court.jpg"; sourceTree = "<group>"; };
+		2EB2BA101ED570E3009EDEDE /* Wattle Park Hard Court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wattle Park Hard Court.jpg"; sourceTree = "<group>"; };
+		2EB2BA111ED570E3009EDEDE /* Ashburton Pool & Rec Center.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ashburton Pool & Rec Center.jpg"; sourceTree = "<group>"; };
+		2EB2BA121ED570E3009EDEDE /* Aqua Link Boxhill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aqua Link Boxhill.jpg"; sourceTree = "<group>"; };
+		2EB2BA131ED570E3009EDEDE /* Nunawading Basketball Centre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nunawading Basketball Centre.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E059A2A1ED292AA0097B9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E059A581ED3DDBB0097B9DE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E059A241ED292AA0097B9DE = {
+			isa = PBXGroup;
+			children = (
+				2E059A2F1ED292AA0097B9DE /* assignment2 */,
+				2E059A2E1ED292AA0097B9DE /* Products */,
+				2E059A561ED3DDBB0097B9DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E059A2E1ED292AA0097B9DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E059A2D1ED292AA0097B9DE /* assignment2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E059A2F1ED292AA0097B9DE /* assignment2 */ = {
+			isa = PBXGroup;
+			children = (
+				2E059A301ED292AA0097B9DE /* AppDelegate.swift */,
+				2E059A321ED292AA0097B9DE /* ViewController.swift */,
+				2E059A421ED292DD0097B9DE /* MapViewController.swift */,
+				2EB2B9F91ED3F2BB009EDEDE /* ScoreViewController.swift */,
+				2EB2BA051ED42B11009EDEDE /* TableViewController.swift */,
+				2EB2BA071ED42F62009EDEDE /* CourtDetailViewController.swift */,
+				2E059A341ED292AA0097B9DE /* Main.storyboard */,
+				2E059A371ED292AA0097B9DE /* Assets.xcassets */,
+				2EB2BA0B1ED570E3009EDEDE /* Tally Ho Reserve.jpg */,
+				2EB2BA0C1ED570E3009EDEDE /* Kaland Hard Court.jpg */,
+				2EB2BA0D1ED570E3009EDEDE /* Mirrabooka Hard Court.jpg */,
+				2EB2BA0E1ED570E3009EDEDE /* Worrall St Hard Court.jpg */,
+				2EB2BA0F1ED570E3009EDEDE /* Eley Rd Hard Court.jpg */,
+				2EB2BA101ED570E3009EDEDE /* Wattle Park Hard Court.jpg */,
+				2EB2BA111ED570E3009EDEDE /* Ashburton Pool & Rec Center.jpg */,
+				2EB2BA121ED570E3009EDEDE /* Aqua Link Boxhill.jpg */,
+				2EB2BA131ED570E3009EDEDE /* Nunawading Basketball Centre.jpg */,
+				2E059A541ED3BF400097B9DE /* whiteboarder.png */,
+				2E059A501ED3BBEF0097B9DE /* backgroundwithlogo.png */,
+				2EB2B9FB1ED3F944009EDEDE /* background.png */,
+				2EB2BA091ED434F5009EDEDE /* Deakin University Burwood.jpg */,
+				2EB2B9FD1ED3FDEB009EDEDE /* Airhorn.mp3 */,
+				2E059A391ED292AA0097B9DE /* LaunchScreen.storyboard */,
+				2E059A3C1ED292AA0097B9DE /* Info.plist */,
+			);
+			path = assignment2;
+			sourceTree = "<group>";
+		};
+		2E059A561ED3DDBB0097B9DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E059A571ED3DDBB0097B9DE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E059A2C1ED292AA0097B9DE /* assignment2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E059A3F1ED292AA0097B9DE /* Build configuration list for PBXNativeTarget "assignment2" */;
+			buildPhases = (
+				2E059A291ED292AA0097B9DE /* Sources */,
+				2E059A2A1ED292AA0097B9DE /* Frameworks */,
+				2E059A2B1ED292AA0097B9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = assignment2;
+			productName = assignment2;
+			productReference = 2E059A2D1ED292AA0097B9DE /* assignment2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E059A251ED292AA0097B9DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ryan Hokke";
+				TargetAttributes = {
+					2E059A2C1ED292AA0097B9DE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E059A281ED292AA0097B9DE /* Build configuration list for PBXProject "assignment2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E059A241ED292AA0097B9DE;
+			productRefGroup = 2E059A2E1ED292AA0097B9DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E059A2C1ED292AA0097B9DE /* assignment2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E059A2B1ED292AA0097B9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB2BA171ED570E3009EDEDE /* Worrall St Hard Court.jpg in Resources */,
+				2E059A3B1ED292AA0097B9DE /* LaunchScreen.storyboard in Resources */,
+				2EB2BA1B1ED570E3009EDEDE /* Aqua Link Boxhill.jpg in Resources */,
+				2EB2BA151ED570E3009EDEDE /* Kaland Hard Court.jpg in Resources */,
+				2EB2B9FC1ED3F944009EDEDE /* background.png in Resources */,
+				2EB2BA1A1ED570E3009EDEDE /* Ashburton Pool & Rec Center.jpg in Resources */,
+				2EB2BA191ED570E3009EDEDE /* Wattle Park Hard Court.jpg in Resources */,
+				2E059A381ED292AA0097B9DE /* Assets.xcassets in Resources */,
+				2EB2BA0A1ED434F5009EDEDE /* Deakin University Burwood.jpg in Resources */,
+				2EB2BA1C1ED570E3009EDEDE /* Nunawading Basketball Centre.jpg in Resources */,
+				2E059A511ED3BBEF0097B9DE /* backgroundwithlogo.png in Resources */,
+				2E059A361ED292AA0097B9DE /* Main.storyboard in Resources */,
+				2EB2B9FE1ED3FDEB009EDEDE /* Airhorn.mp3 in Resources */,
+				2EB2BA181ED570E3009EDEDE /* Eley Rd Hard Court.jpg in Resources */,
+				2E059A551ED3BF400097B9DE /* whiteboarder.png in Resources */,
+				2EB2BA141ED570E3009EDEDE /* Tally Ho Reserve.jpg in Resources */,
+				2EB2BA161ED570E3009EDEDE /* Mirrabooka Hard Court.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E059A291ED292AA0097B9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E059A331ED292AA0097B9DE /* ViewController.swift in Sources */,
+				2E059A431ED292DD0097B9DE /* MapViewController.swift in Sources */,
+				2E059A311ED292AA0097B9DE /* AppDelegate.swift in Sources */,
+				2EB2BA061ED42B11009EDEDE /* TableViewController.swift in Sources */,
+				2EB2B9FA1ED3F2BB009EDEDE /* ScoreViewController.swift in Sources */,
+				2EB2BA081ED42F62009EDEDE /* CourtDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E059A341ED292AA0097B9DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E059A351ED292AA0097B9DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E059A391ED292AA0097B9DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E059A3A1ED292AA0097B9DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E059A3D1ED292AA0097B9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E059A3E1ED292AA0097B9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E059A401ED292AA0097B9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = assignment2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RH212163373.assignment2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E059A411ED292AA0097B9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = assignment2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RH212163373.assignment2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E059A281ED292AA0097B9DE /* Build configuration list for PBXProject "assignment2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E059A3D1ED292AA0097B9DE /* Debug */,
+				2E059A3E1ED292AA0097B9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E059A3F1ED292AA0097B9DE /* Build configuration list for PBXNativeTarget "assignment2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E059A401ED292AA0097B9DE /* Debug */,
+				2E059A411ED292AA0097B9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E059A251ED292AA0097B9DE /* Project object */;
+}
